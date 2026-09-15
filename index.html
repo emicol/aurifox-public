@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AuriFox</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#F1E9DA;--ink:#241A12;--ink-soft:#5E5142;--gold:#B4832B;--fox:#CC5320;--card:#FBF6EC;--line:rgba(36,26,18,.12)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Hanken Grotesk",sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;
+  background-image:radial-gradient(1000px 500px at 15% -10%,rgba(216,166,60,.16),transparent 60%),radial-gradient(900px 520px at 110% 5%,rgba(204,83,32,.12),transparent 55%)}
+.wrap{max-width:720px;margin:0 auto;padding:80px 28px 100px}
+.mark{width:56px;height:56px;border-radius:16px;background:linear-gradient(150deg,var(--fox),var(--gold));display:grid;place-items:center;color:#fff;font-family:"Fraunces",serif;font-weight:600;font-size:30px;box-shadow:0 12px 30px -14px rgba(36,26,18,.5)}
+h1{font-family:"Fraunces",serif;font-weight:600;font-size:clamp(44px,9vw,72px);letter-spacing:-.02em;margin:24px 0 6px}
+h1 em{font-style:italic;color:var(--fox)}
+.tag{font-size:19px;color:var(--ink-soft);max-width:46ch}
+.links{display:flex;gap:14px;flex-wrap:wrap;margin-top:38px}
+.links a{display:inline-block;padding:14px 22px;border-radius:14px;background:var(--ink);color:var(--paper);text-decoration:none;font-weight:700;font-size:15px}
+.links a.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.foot{margin-top:70px;border-top:1px solid var(--line);padding-top:20px;font-size:13px;color:var(--ink-soft)}
+.draft{margin-top:30px;background:#FBF3E4;border:1px solid rgba(231,164,0,.45);border-radius:12px;padding:12px 16px;font-size:13px;color:#7a5a00}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="mark">A</div>
+  <h1>Auri<em>Fox</em></h1>
+  <p class="tag">Vos comptes, réorganisés par fonction. Une gestion qui, par sa forme, mène à garder, ranger, planifier. Pour adultes.</p>
+  <div class="links">
+    <a href="./confidentialite.html">Politique de confidentialité</a>
+    <a class="ghost" href="./conditions.html">Conditions d'utilisation</a>
+  </div>
+  <div class="draft">🦊 Brouillon — pages légales à finaliser (identité de l'éditeur, contact) avant la publication de l'application.</div>
+  <div class="foot">© 2026 AuriFox. Application de gestion de compte personnelle.</div>
+</div>
+</body>
+</html>
